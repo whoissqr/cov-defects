@@ -1,9 +1,0 @@
-cov-analyze --dir idir --disable-default -en PATH_MANIPULATION -en TAINTED_STRING --model-file coverity/models.xmldb 
-Analysis summary report:
-------------------------
-Files analyzed                 : 16
-Total LoC input to cov-analyze : 30256
-Functions analyzed             : 58
-Paths analyzed                 : 67
-Time taken by analysis         : 00:00:01
-Defect occurrences found       : 1 TAINTED_STRING
