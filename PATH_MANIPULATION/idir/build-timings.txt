@@ -1,0 +1,23 @@
+timer                                ms      calls
+--------------------------------------------------
+cov-build                         13082          1
+  add_string_to_table                 1         43
+  addEmitFileName                     0          1
+    addEmitFileName                   0          1
+      addEmitFileName                 0          1
+        addEmitFileName               0          1
+          addEmitFileName             0          1
+            addEmitFileName           0          1
+  Prepare capture                     1          1
+  Running build command           13068          1
+  TUInfo::getPrimarySFRow             0          1
+  (left over)                        12
+
+activity                             ms      calls
+--------------------------------------------------
+cov-build                         13082          1
+add_string_to_table                   1         43
+addEmitFileName                       0          6
+Prepare capture                       1          1
+Running build command             13068          1
+TUInfo::getPrimarySFRow               0          1

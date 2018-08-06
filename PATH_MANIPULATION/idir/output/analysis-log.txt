@@ -1,0 +1,225 @@
+cmdline: command line: cov-analyze --dir idir --disable-default -en PATH_MANIPULATION -en TAINTED_STRING --model-file coverity/models.xmldb 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "idir" ] },
+cmdline:   { name: "disable-default" },
+cmdline:   { name: "enable", args: [ "PATH_MANIPULATION" ] },
+cmdline:   { name: "enable", args: [ "TAINTED_STRING" ] },
+cmdline:   { name: "model-file", args: [ "coverity/models.xmldb" ] },
+cmdline:   { name: "config", args: [ "/export/Coverity/cov-analysis-linux64-2018.06/config/coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=15534
+startup: detected platform: Linux 4.13.0-38-generic x86_64
+startup: target platform: linux64
+startup: Detected 40 logical cpus
+startup: Detected 20 cpu cores
+startup: host name: sg01-sig01
+startup: user name: shichao
+startup: Analysis version: 2018.06 (c4739610a1 p-othello-push-33188.1001)
+startup: temp directory: /tmp/cov-shichao/8ab5aaf043ee087283cd1d965bcb616c
+startup: enable_constraint_fpp=0
+startup: current time: 2018-Jun-28 15:59:14
+startup: Detected amount of memory: 65916764kb
+startup: Limiting memory to 59325087kb
+wlink: Identifying web applications
+wlink: Linking web-app archive bytecode
+emitdb: callgraph.cpp:2920 11111111
+emitdb: callgraph.cpp:2950 11000011
+emitdb: callgraph.cpp:2970 11000011
+directives: ===== User directives:
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+rta: Not running RTA because it doesn't apply to current languages
+emitdb: callgraph.cpp:2980 11000000
+dyncg: N/A or no data
+directives: Optimizing dataflow configuration
+general: Starting analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:46297
+dm-access-lib: AM starting DM with command line: /export/Coverity/cov-analysis-linux64-2018.06/bin/cov-internal-dm --AM-port 46297 --log-file /home/shichao/workspace/model-fun/PATH_MANIPULATION/idir/output/distributor.log -j 40 --AW-timeout 36000 /export/Coverity/cov-analysis-linux64-2018.06/bin/cov-analyze --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=15555
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:46297 - 127.0.0.1:49608 (remote)
+makeWUP: gen0
+makeWUP: gen2
+makeWUP: gen6
+makeWUP: gen14
+makeWUP: gen30
+makeWUP: gen51
+makeWUP: gen50
+makeWUP: gen49
+makeWUP: gen48
+makeWUP: gen47
+makeWUP: gen46
+makeWUP: gen45
+makeWUP: gen44
+makeWUP: gen43
+makeWUP: gen42
+makeWUP: gen41
+makeWUP: gen40
+makeWUP: gen39
+makeWUP: gen38
+makeWUP: gen37
+makeWUP: gen36
+makeWUP: gen35
+makeWUP: gen34
+makeWUP: gen33
+makeWUP: gen32
+makeWUP: gen29
+makeWUP: gen31
+makeWUP: gen28
+makeWUP: gen27
+makeWUP: gen26
+makeWUP: gen25
+makeWUP: gen24
+makeWUP: gen23
+makeWUP: gen22
+makeWUP: gen21
+makeWUP: gen20
+makeWUP: gen19
+makeWUP: gen18
+makeWUP: gen17
+makeWUP: gen16
+makeWUP: gen13
+makeWUP: gen15
+makeWUP: gen12
+makeWUP: gen11
+makeWUP: gen10
+makeWUP: gen9
+makeWUP: gen8
+makeWUP: gen5
+makeWUP: gen7
+makeWUP: gen4
+makeWUP: gen1
+makeWUP: gen3
+makeWUP: gen52
+makeWUP: gen85
+makeWUP: gen90
+makeWUP: gen68
+makeWUP: gen92
+makeWUP: gen77
+makeWUP: gen81
+makeWUP: gen64
+makeWUP: gen60
+makeWUP: gen55
+makeWUP: gen83
+makeWUP: gen82
+makeWUP: gen54
+makeWUP: gen75
+makeWUP: gen103
+makeWUP: gen100
+makeWUP: gen105
+makeWUP: gen57
+makeWUP: gen97
+makeWUP: gen109
+makeWUP: gen53
+makeWUP: gen104
+makeWUP: gen107
+makeWUP: gen108
+wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
+wur: gen108 11 1549 234 229 3 mem=23638016 max=83636224 1 n: _ZNSt14codecvt_bynameIDsc11__mbstate_tED9Ev in TU 1
+wur: gen68 1 647 233 203 2 mem=23633920 max=83632128 1 n: _ZN9__gnu_cxx13new_allocatorIcED9Ev in TU 1
+wur: gen107 11 1549 1 229 0 1 n: _ZNSt14codecvt_bynameIDic11__mbstate_tED9Ev in TU 1
+wur: gen81 1 1619 1 326 1 1 n: _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv in TU 1
+makeWUP: gen72
+wur: gen53 10 3102 233 317 1 mem=23638016 max=83636224 1 n: _ZNSolsEPFRSoS_E in TU 1
+wur: gen77 3 897 234 207 2 mem=23638016 max=83636224 1 n: _ZSt11__addressofIcEPT_RS0_ in TU 1
+makeWUP: gen70
+wur: gen109 10 3152 1 262 0 1 n: _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ in TU 1
+wur: gen104 13 1191 235 303 2 mem=23638016 max=83636224 1 n: _ZNKSt5ctypeIcE8do_widenEc in TU 1
+wur: gen92 3 1729 1 328 0 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_get_allocatorEv in TU 1
+makeWUP: gen78
+wur: gen72 1 778 1 223 1 1 n: _ZN9__gnu_cxx13new_allocatorIcEC9ERKS1_ in TU 1
+makeWUP: gen69
+wur: gen70 1 740 0 193 0 1 n: _ZNSaIcED9Ev in TU 1
+makeWUP: gen73
+wur: gen78 1 927 0 208 0 1 n: _ZSt9addressofIcEPT_RS0_ in TU 1
+makeWUP: gen74
+wur: gen69 3 748 1 55 0 1 n: _ZN9__gnu_cxx13new_allocatorIcEC9Ev in TU 1
+makeWUP: gen79
+wur: gen97 7 922 239 211 2 mem=23638016 max=83636224 1 n: _ZNSt11char_traitsIcE6lengthEPKc in TU 1
+makeWUP: gen99
+wur: gen73 3 1001 1 202 0 1 n: _ZNSaIcEC9ERKS_ in TU 1
+makeWUP: gen71
+wur: gen74 1 1046 0 236 0 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD9Ev in TU 1
+wur: gen105 7 825 1 454 1 2 n: _ZSt13__check_facetISt5ctypeIcEERKT_PS3_ in TU 1
+wur: gen79 10 1034 0 215 1 1 n: _ZNSt14pointer_traitsIPcE10pointer_toERc in TU 1
+makeWUP: gen80
+wur: gen99 1 1867 0 381 0 1 n: _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv in TU 1
+wur: gen71 3 895 0 55 0 1 n: _ZNSaIcEC9Ev in TU 1
+wur: gen80 1 1993 0 235 0 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv in TU 1
+wur: gen64 5 979 265 287 2 mem=23633920 max=83632128 1 n: _ZNSt15basic_streambufIcSt11char_traitsIcEED9Ev in TU 1
+makeWUP: gen65
+wur: gen75 4 706 265 362 2 mem=23633920 max=83632128 1 n: _ZSt4moveIRSaIcEEONSt16remove_referenceIT_E4typeEOS3_ in TU 1
+wur: gen60 5 2892 0 224 1 1 n: _ZNSt9basic_iosIcSt11char_traitsIcEED9Ev in TU 1
+wur: gen100 9 1655 266 356 2 mem=23633920 max=83632128 1 n: _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv in TU 1
+makeWUP: gen61
+wur: gen54 4 3026 1 351 0 1 n: _ZNKSt9basic_iosIcSt11char_traitsIcEE7rdstateEv in TU 1
+wur: gen57 9 904 0 222 0 1 n: _ZStorSt13_Ios_OpenmodeS_ in TU 1
+wur: gen55 8 860 267 218 2 mem=23633920 max=83632128 1 n: _ZStorSt12_Ios_IostateS_ in TU 1
+wur: gen82 6 757 270 411 3 mem=23633920 max=83632128 1 n: _ZNSt11char_traitsIcE6assignERcRKc in TU 1
+makeWUP: gen62
+wur: gen103 8 1446 1 404 1 2 n: _ZNKSt5ctypeIcE5widenEc in TU 1
+wur: gen83 6 1661 0 374 0 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_lengthEm in TU 1
+wur: gen65 9 3381 1 294 0 1 n: _ZNSt13basic_filebufIcSt11char_traitsIcEED9Ev in TU 1
+makeWUP: gen76
+wur: gen61 8 3146 0 319 1 1 n: _ZNSiD9Ev in TU 1
+makeWUP: gen56
+wur: gen85 2 1159 274 212 2 mem=23638016 max=83636224 1 n: _ZSt11__addressofIKcEPT_RS1_ in TU 1
+makeWUP: gen86
+makeWUP: gen84
+wur: gen62 1 3435 2 494 1 1 n: _ZNSt9basic_iosIcSt11char_traitsIcEEC9Ev in TU 1
+wur: gen90 2 994 1 285 0 1 n: _ZN9__gnu_cxx13new_allocatorIcE10deallocateEPcm in TU 1
+makeWUP: gen91
+wur: gen76 3 1863 1 374 1 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC9EPcOS3_ in TU 1
+wur: gen86 2 940 0 213 2 1 n: _ZSt9addressofIKcEPT_RS1_ in TU 1
+makeWUP: gen87
+wur: gen56 4 3559 2 236 0 1 n: _ZNSt9basic_iosIcSt11char_traitsIcEE8setstateESt12_Ios_Iostate in TU 1
+makeWUP: gen66
+wur: gen84 1 2755 1 437 2 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEm in TU 1
+wur: gen91 2 1454 1 275 0 1 n: _ZNSt16allocator_traitsISaIcEE10deallocateERS0_Pcm in TU 1
+makeWUP: gen93
+wur: gen87 3 1053 1 219 1 1 n: _ZNSt14pointer_traitsIPKcE10pointer_toERS0_ in TU 1
+makeWUP: gen88
+makeWUP: gen63
+makeWUP: gen101
+wur: gen66 1 5817 1 369 1 1 n: _ZNSt14basic_ifstreamIcSt11char_traitsIcEED9Ev in TU 1
+makeWUP: gen59
+wur: gen93 2 3190 1 358 0 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_destroyEm in TU 1
+wur: gen88 3 2204 1 239 1 1 n: _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv in TU 1
+makeWUP: gen89
+makeWUP: gen106
+wur: gen101 4 2323 2 339 1 1 n: _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE in TU 1
+wur: gen63 1 3968 2 527 1 1 n: _ZNSiC9Ev in TU 1
+makeWUP: gen98
+wur: gen59 2 6300 3 342 1 2 n: _ZNSt14basic_ifstreamIcSt11char_traitsIcEE5closeEv in TU 1
+makeWUP: gen58
+wur: gen89 3 2380 2 238 2 2 n: _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_is_localEv in TU 1
+makeWUP: gen94
+wur: gen106 1 4256 1 478 1 2 n: _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc in TU 1
+makeWUP: gen67
+wur: gen98 2 3851 1 506 1 2 n: _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc in TU 1
+makeWUP: gen110
+wur: gen94 1 2050 1 366 1 2 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv in TU 1
+wur: gen58 3 6780 1 482 1 2 n: _ZNSt14basic_ifstreamIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode in TU 1
+makeWUP: gen95
+wur: gen67 2 7598 2 558 1 1 n: _ZNSt14basic_ifstreamIcSt11char_traitsIcEEC9Ev in TU 1
+wur: gen110 1 3932 1 408 1 1 n: _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ in TU 1
+wur: gen95 2 1772 1 307 0 2 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED9Ev in TU 1
+makeWUP: gen96
+wur: gen96 1 2932 1 291 1 1 n: _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC9Ev in TU 1
+makeWUP: gen102
+wur: gen102 1 11283 23 377 22 1 n: _Z17path_manipulationv in TU 1
+makeWUP: gen111
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 16
+summary: Total LoC input to cov-analyze : 30256
+summary: Functions analyzed             : 58
+summary: Paths analyzed                 : 67
+summary: Time taken by analysis         : 00:00:01
+summary: Defect occurrences found       : 1 TAINTED_STRING
+summary: Number of functions: 111
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 0
+summary: recoverable failures: 0
+mem: AM peak mem bytes: 90624000
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

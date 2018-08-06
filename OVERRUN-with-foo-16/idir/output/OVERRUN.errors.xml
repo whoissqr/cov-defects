@@ -1,0 +1,26 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>OVERRUN</checker>
+<type>overrun</type>
+<subtype>logic_error</subtype>
+<file>/home/shichao/workspace/model-fun/OVERRUN-with-foo-16/test.c</file>
+<function>main</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>overrun-call</tag>
+<description>{CovLStrv2{{t{Overrunning callee's array of size {0} by passing argument {1} in call to {2}.}{16}{{code{16}}}{{code{foo}}}}}}</description>
+<line>4</line>
+</event>
+<extra>&lt;no ids&gt;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>STATIC_C</domain>
+<checker>OVERRUN_STATIC</checker>
+<file>/home/shichao/workspace/model-fun/OVERRUN-with-foo-16/test.c</file>
+<function>main</function>
+<extra></extra>
+</antecedentMerge>
+</error>

@@ -1,0 +1,107 @@
+timer                                            ms      calls
+--------------------------------------------------------------
+CRYPTO                                            0          1
+TAINTED_STRING_pass1                              0          1
+TAINTED_STRING_pass2                              0          1
+EXTRACT_XREF_SUMMARY                              0          1
+FUNCTION_METRICS                                  0          1
+RELAX_FORMAT_STRING_SINK                          0          1
+RELAX_TAINTED_DATA_TRANSITIVE                     0          1
+RELAX_TAINTED_DATA_TRANSITIVE_VARARG              0          1
+RELAX_TAINTED_STRING_RETURN_CONTENT               0          1
+RELAX_TAINTED_STRING_ARGUMENT                     0          1
+RELAX_TAINTED_STRING_SINK_CONTENT                 0          1
+RELAX_TAINTED_STRING_SANITIZE_CONTENT             0          1
+RELAX_CRYPTO_PRIMITIVES                           0          1
+RELAX_ANDROID_IMPLICIT_INTENT                     0          1
+DUMMY_DERIVER_SECURITY                            0          1
+IFACE_TRACKER                                     0          2
+BUILD_SINK_TYPE_GRAPH                             0          1
+DERIVE_EL_BEAN_RW                                 0          1
+DERIVE_DYNAMIC_MAP_RW                             0          1
+FRAMEWORK_ANALYSIS_SPRING                         1          1
+WEBFORMS_DOM                                      0          1
+RAZOR_SECTIONS                                    0          1
+RELAX_DATAFLOW_PRIMITIVES                         0          1
+DUMMY_DERIVER_DATAFLOW                            0          1
+BUILD_STRING_GRAPH                                0          1
+  BUILD_STRING_GRAPH_MODELS                       0          1
+  BUILD_STRING_GRAPH_JSP                          0          1
+  STRING_GRAPH_DYNAMIC_MAP                        0          1
+__PATH_MANIPULATION_BUDA_STATICS                  0          1
+DATAFLOW_INJECTION                                0          1
+__PATH_MANIPULATION_STRING_GRAPH                  0          1
+DATAFLOW_CALLGRAPH_CHECKER                        0          1
+BUDA_DIRECTIVES_TYPE_INFERENCE_CHECKER            0          1
+__PATH_MANIPULATION_BUDA                          0          1
+PATH_MANIPULATION                                 0          1
+sequential initialization                        21          1
+  Looking for translation units                   1          1
+  Computing links for translation units           6          1
+  xfer symbol cache                               1          1
+  Computing virtual overrides                     2          1
+  Computing callgraph                             3          1
+  Topologically sorting functions                 1          1
+  (left over)                                     7
+Computing node costs                              1          1
+Analysis run                                    346          1
+  FUNCTION_METRICS                                5         60
+  IFACE_TRACKER                                   0          2
+  RELAX_FORMAT_STRING_SINK                        0          2
+  RELAX_TAINTED_DATA_TRANSITIVE                   0          2
+  RELAX_TAINTED_DATA_TRANSITIVE_VARARG            0          2
+  RELAX_TAINTED_STRING_ARGUMENT                   0          2
+  RELAX_TAINTED_STRING_RETURN_CONTENT             0          2
+  RELAX_TAINTED_STRING_SANITIZE_CONTENT           0          2
+  RELAX_TAINTED_STRING_SINK_CONTENT               0          2
+  TAINTED_STRING_pass1                            0          1
+  TAINTED_STRING_pass2                            0          1
+  loadFromEmit                                   17         58
+
+activity                                         ms      calls
+--------------------------------------------------------------
+IFACE_TRACKER                                     0          4
+CRYPTO                                            0          1
+TAINTED_STRING_pass2                              0          2
+TAINTED_STRING_pass1                              0          2
+EXTRACT_XREF_SUMMARY                              0          1
+FUNCTION_METRICS                                  5         61
+RELAX_FORMAT_STRING_SINK                          0          3
+RELAX_TAINTED_DATA_TRANSITIVE                     0          3
+RELAX_TAINTED_DATA_TRANSITIVE_VARARG              0          3
+RELAX_TAINTED_STRING_RETURN_CONTENT               0          3
+RELAX_TAINTED_STRING_ARGUMENT                     0          3
+RELAX_TAINTED_STRING_SINK_CONTENT                 0          3
+RELAX_TAINTED_STRING_SANITIZE_CONTENT             0          3
+RELAX_CRYPTO_PRIMITIVES                           0          1
+RELAX_ANDROID_IMPLICIT_INTENT                     0          1
+DUMMY_DERIVER_SECURITY                            0          1
+BUILD_SINK_TYPE_GRAPH                             0          1
+DERIVE_EL_BEAN_RW                                 0          1
+DERIVE_DYNAMIC_MAP_RW                             0          1
+FRAMEWORK_ANALYSIS_SPRING                         1          1
+WEBFORMS_DOM                                      0          1
+RAZOR_SECTIONS                                    0          1
+RELAX_DATAFLOW_PRIMITIVES                         0          1
+DUMMY_DERIVER_DATAFLOW                            0          1
+BUILD_STRING_GRAPH                                0          1
+__PATH_MANIPULATION_BUDA_STATICS                  0          1
+DATAFLOW_INJECTION                                0          1
+__PATH_MANIPULATION_STRING_GRAPH                  0          1
+DATAFLOW_CALLGRAPH_CHECKER                        0          1
+BUDA_DIRECTIVES_TYPE_INFERENCE_CHECKER            0          1
+__PATH_MANIPULATION_BUDA                          0          1
+PATH_MANIPULATION                                 0          1
+BUILD_STRING_GRAPH_JSP                            0          1
+BUILD_STRING_GRAPH_MODELS                         0          1
+STRING_GRAPH_DYNAMIC_MAP                          0          1
+sequential initialization                        21          1
+Looking for translation units                     1          1
+Computing links for translation units             6          1
+xfer symbol cache                                 1          1
+Computing virtual overrides                       2          1
+Computing callgraph                               3          1
+Topologically sorting functions                   1          1
+Computing node costs                              1          1
+Analysis run                                    346          1
+loadFromEmit                                     17         58

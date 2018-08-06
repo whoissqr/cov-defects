@@ -1,0 +1,150 @@
+{
+  "cov-analyze" : {
+    "command-line-options" : {
+      args : [
+        "dir",
+        "disable-default",
+        "enable",
+        "enable",
+        "model-file",
+        "config"
+      ]
+    },
+    time : 1,
+    "line-counts" : {
+      "C/C++" : {
+        "blank-lines" : 8728,
+        "code-lines" : 30256,
+        "comment-lines" : 15686
+      },
+      "C#" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Fortran : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Java : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      JavaScript : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Objective-C/C++" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      PHP : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Python 2" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Python 3" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Ruby : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Scala : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Swift : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Text : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Visual Basic" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      }
+    },
+    "file-statistics-by-extension" : {
+      "<none>" : {
+        files : 23,
+        "total-bytes" : 294259
+      },
+      cpp : {
+        files : 1,
+        "total-bytes" : 893
+      },
+      h : {
+        files : 140,
+        "total-bytes" : 1928376
+      },
+      tcc : {
+        files : 8,
+        "total-bytes" : 188095
+      }
+    },
+    ident : "2018.06 (build c4739610a1 p-othello-push-33188.1001)",
+    platform : "Linux 4.13.0-38-generic x86_64",
+    "short-platform" : "linux64",
+    extver : "2018.06",
+    intver : "c4739610a1 p-othello-push-33188.1001",
+    "aw-peak-mem-bytes" : 83636224,
+    "am+aw-peak-mem-bytes" : 53854208,
+    "bytecode-functions" : 0,
+    concurrency : false,
+    cxx : false,
+    "enable-parse-warnings" : false,
+    failures : 0,
+    "files-analyzed" : 16,
+    force : false,
+    "function-metrics-count" : 58,
+    "functions-analyzed" : 58,
+    "incremental-hits" : 0,
+    "incremental-misses" : 58,
+    "dyncg-sites-resolved" : 0,
+    "dyncg-sites-total" : 0,
+    "max-mem" : 512,
+    "memout-count" : 0,
+    "pathout-count" : 0,
+    paths : 5000,
+    "paths-analyzed" : 67,
+    "peak-mem-bytes" : 90624000,
+    security : true,
+    "tus-count" : 1,
+    "string-graph-nodes" : 0,
+    "web-app-entry-points" : 0,
+    "web-app-views-unused" : 0,
+    "ta.code_age_thresholds" : "0, 0",
+    "enabled-checkers" : "PATH_MANIPULATION TAINTED_STRING",
+    "TAINTED_STRING-new-defect-count" : 1,
+    "total-new-defect-count" : 1,
+    "total-input-files" : -1,
+    "matching-input-files" : -1
+  },
+  "cov-build" : {
+    "build-successes" : 1,
+    "builds-with-recoverable-errors" : 0,
+    "build-failures" : 0,
+    "dotnet-webapps-detected" : 0,
+    "dotnet-webapp-successes" : 0,
+    "dotnet-webapp-compilation-secs" : 0
+  }
+}
