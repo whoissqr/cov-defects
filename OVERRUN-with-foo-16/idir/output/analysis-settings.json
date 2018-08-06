@@ -1,9 +1,0 @@
-{
-  covAnalyzeArgs : [
-    "--disable-default",
-    "--enable",
-    "OVERRUN"
-  ],
-  fileOptions : [],
-  fileCheckerOptions : []
-}

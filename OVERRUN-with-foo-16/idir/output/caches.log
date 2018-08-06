@@ -1,5 +1,0 @@
-userModels cache miss rate: 1 / 2 (50.00%)
-Redirected file descriptors cache miss rate: 4 / 186 (2.15%)
-TUInfos cache miss rate: 1 / 3 (33.33%)
-GetCallees cache miss rate: 1 / 3 (33.33%)
-GetCallers cache miss rate: 2 / 5 (40.00%)
